@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0056b3;
+}
+
+.header-subtitle {
+    font-size: 16px;
+    color: #555;
+}
+
+/* File Upload Section */
+.upload-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.upload-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.upload-btn:hover {
+    background-color: #0056b3;
+}
+
+.status-text {
+    font-size: 14px;
+    color: #888;
+    margin-top: 10px;
+}
+
+/* Chat Section */
+.chat-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 350px;
+    border-top: 2px solid #eeeeee;
+    padding-top: 20px;
+}
+
+.chat-box {
+    width: 100%;
+    max-height: 250px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.chat-box .message {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+.chat-box .user-message {
+    background-color: #cce5ff;
+    text-align: right;
+}
+
+.chat-box .bot-message {
+    background-color: #e2e3e5;
+}
+
+.user-input-container {
+    display: flex;
+    width: 100%;
+}
+
+.user-query {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+.ask-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.ask-btn:hover {
+    background-color: #218838;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .chat-section {
+        height: 350px;
+    }
+
+    .user-query {
+        font-size: 14px;
+    }
+
+    .upload-btn {
+        font-size: 14px;
+    }
+}
