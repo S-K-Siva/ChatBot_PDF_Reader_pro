@@ -4,7 +4,7 @@ brew install python@3.11 or install python 3.11 version from official document
 ```
 # Create virtual env
 ```bash
-python3.11 -m venv venv
+py -3.11 -m venv venv
 ```
 
 # run the command
@@ -13,15 +13,15 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 ```
 # activate the virual env
 ```bash
-.\venv\Scripts\Activate.ps1
+.\venv\Scripts\activate
 ```
 # install requirements.txt
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 # make sure you installed the following dependencies
 ```bash
-pip install setuptools wheel flask
+pip3 install setuptools wheel flask
 ```
 # run the server
 ```bash
