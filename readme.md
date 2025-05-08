@@ -1,4 +1,5 @@
-## Demo
+## Demo of the project
+#### click the picture...
 [![Watch the video](https://t4.ftcdn.net/jpg/01/43/23/83/360_F_143238306_lh0ap42wgot36y44WybfQpvsJB5A1CHc.jpg)](https://drive.google.com/file/d/10MvQJBAag5iKuyw37kDwOrruXsISNuIC/view?usp=sharing)
 
 # Install python 3.11
